@@ -43,5 +43,9 @@ print(5 is 5)
 print(5 is not 10)
 print(5 is 10)
 
-
 #Boolean Operators
+a=True
+b=False #false with small f cannot be considered as per boolean syntax
+print(a or b) #either one should be true
+print(a and b) #both should be true
+print(not a) #prints the opposite
