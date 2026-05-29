@@ -48,7 +48,9 @@ a=True
 b=False #false with small f cannot be considered as per boolean syntax
 print(a or b) #either one should be true
 print(a and b) #both should be true
-print(not a) #prints the opposite
+print(not a) #prints the opposite/ invert it
 print(True or False)
 print(True and True)
 print(not True)
+print(a and False)
+print(a or False)
