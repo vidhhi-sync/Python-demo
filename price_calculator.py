@@ -1,6 +1,19 @@
 # Decalring variables
-"""a = 5
-   print(a)"""
+a = 5
+print(a)
+
+# Assigning and printing values using variables
+name ="Vidhi Bansal"
+age= 19
+
+print("My name is :", name)
+print("My age is :", age)
+
+print(type(name))
+print(type(age))
+
+age2=age
+print(age2)
 
 #Basic price calculator
 #First we will add the quantity of the product
