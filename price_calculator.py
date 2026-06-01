@@ -12,6 +12,7 @@ print("My age is :", age)
 print(type(name))
 print(type(age))
 
+#Assigning value
 age2=age
 print(age2)
 
