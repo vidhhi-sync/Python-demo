@@ -22,6 +22,7 @@ print(type(a%b))
 a= 1*2
 b= 5*6
 print(a*b)
+print(a,b,a*b) # Can print many statements together also by using a comma between them
 
 
 #Comparison Operator
