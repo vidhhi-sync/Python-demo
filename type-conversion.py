@@ -9,3 +9,4 @@ c = int(b) #here b which is string is forcefully converted into integer to perfo
 sum = a + c
 print(sum)
 print(type(b))
+print(type(c))
