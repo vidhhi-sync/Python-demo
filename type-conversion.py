@@ -1,0 +1,11 @@
+a=2
+b=4.25
+sum = a + b
+print(sum) # here it automatically convert the integer value into float value
+
+#converting string into integer by using type casting
+a,b = 1, "2"
+c = int(b) #here b which is string is forcefully converted into integer to perform the operation
+sum = a + c
+print(sum)
+print(type(b))
