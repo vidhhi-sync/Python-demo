@@ -44,6 +44,12 @@ print(5 is 5)
 print(5 is not 10)
 print(5 is 10)
 
+#Assignment Operators
+num = 10
+#num = num + 10
+num+=10
+print(num)
+
 #Boolean Operators
 a=True
 b=False #false with small f cannot be considered as per boolean syntax
