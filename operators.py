@@ -25,7 +25,7 @@ print(a*b)
 print(a,b,a*b) # Can print many statements together also by using a comma between them
 
 
-#Comparison Operator
+#Comparison Operator/ Relational Operators
 a=5
 b=9
 print(a<b)
