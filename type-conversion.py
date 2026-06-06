@@ -10,3 +10,9 @@ sum = a + c
 print(sum)
 print(type(b))
 print(type(c))
+
+#converting float number into a string but vice versa is not possible
+m=3.21
+m=str(m)
+print(m)
+print(type(m))
