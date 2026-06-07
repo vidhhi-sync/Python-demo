@@ -22,3 +22,17 @@ print(hex(15))
 print(round(4.9))
 print(round(3.2))
 print(round(0.1))
+
+#Maximum and Minimum values
+print(min(3,4,7))
+print(max(2,5,7))
+
+#Importing sqrt
+import math
+print(math.sqrt(9))
+print(round(math.sqrt(63)))
+
+
+#Importing only one function
+from math import sqrt
+print(sqrt(9))
