@@ -15,3 +15,24 @@ name2 = "Sanskriti"
 print(len(name2))
 name3= "vid hi" #here the space is also counted in the length of the string
 print(len(name3))
+#Even only spaces can have length 
+a = ""
+b = " "
+c = "v x y "
+print(len(a))
+print(len(b))
+print(len(c))
+
+#using in and not in
+#this checks whether a particular character is in the string or not
+print("a" in name1)
+print("a" not in num1)
+print("v" in num2)
+
+#printing only specific characters from name
+name4 = "Tisha"
+print(name4[0])
+print(name4[:])
+print(name4[2])
+print(name4[-2]) #inverse index, will begin from last
+print(name4[-1])
