@@ -1,8 +1,8 @@
 #List
 student = [ "anvi",88,"vishu",94,"vidhi",89,"tiya",100]
-print(student[1])
-"""for x in range(0,len(student),2):
-    print(student[x],"scored",student[x+1])"""
+"""print(student[1])
+for x in range(0,len(student),2):
+       print(student[x],"scored",student[x+1])
 
 #Append is used to add more items in the same list
 student.append("Lalita")
@@ -28,3 +28,29 @@ print(student)
 student.pop(0) #here 1st item anvi is removed
 student.pop(-1) #here last item marks of vidya is removed
 print(student)
+
+#we can also totally clear out the list of student using the keyword clear()
+student.clear()
+print(student) #we get square brackets as an output itself
+
+#to count how many times does a item repeated in the list we use count()
+count = student.count(88)
+print(count)
+count1 = student.count("anvi")
+print(count1)
+
+#to find the index number of the item in the list using index()
+index = student.index("vidhi")
+print(index)
+index1 = student.index(100)
+print(index1)
+"""
+#Using of sort() keyword
+name = ["mom","dad","sis","bro"]
+name1= [4,3,7,5]
+print(name)
+print(name1)
+name.sort()
+name1.sort()
+print(name)
+print(name1)
