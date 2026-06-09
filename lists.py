@@ -1,6 +1,6 @@
 #List
 student = [ "anvi",88,"vishu",94,"vidhi",89,"tiya",100]
-"""print(student[1])
+print(student[1])
 for x in range(0,len(student),2):
        print(student[x],"scored",student[x+1])
 
@@ -44,7 +44,7 @@ index = student.index("vidhi")
 print(index)
 index1 = student.index(100)
 print(index1)
-"""
+
 #Using of sort() keyword
 name = ["mom","dad","sis","bro"]
 name1= [4,3,7,5]
