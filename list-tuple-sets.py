@@ -50,7 +50,15 @@ name = ["mom","dad","sis","bro"]
 name1= [4,3,7,5]
 print(name)
 print(name1)
-name.sort()
+name.sort() #here the name and no. are sorted out according to alphabetical and smaller to larger
 name1.sort()
 print(name)
 print(name1)
+
+#Reversing the list using reverse() keyword
+name.reverse()  #the order of the list is reversed
+print(name)
+
+#copying a list using copy() keyword
+name_bkup = name.copy()
+print(name_bkup)
