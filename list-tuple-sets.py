@@ -62,3 +62,7 @@ print(name)
 #copying a list using copy() keyword
 name_bkup = name.copy()
 print(name_bkup)
+
+#inserting an item in the middle of the list using insert() keyword
+name.insert(2,"vartika") #this inserted another string in middle of list
+print(name)
