@@ -15,3 +15,6 @@ print('tb'in people)
 #if we want to change data in dictionary we can, it shows dictionaries are not like tuple
 people['jp'] = 'Mr. jaiprakash bansal'
 print(people)
+#Updating dictionary using key value through update() keyword
+people.update({'vb': 'vidhhii bansal'})
+print(people)
