@@ -38,3 +38,21 @@ print(people)
 #clearing the full dictionary using clear() keyword
 people.clear()
 print(people)
+print(type(people)) #dictionary type
+
+#poping out/deleting the variables using pop() keyword
+people.pop('tb')
+print(people)
+
+#we can normally add a dictionary in a dictionary
+people = {
+    'vb':'vidhi bansal',  
+    'tb': 'tiya bansal',
+    'lb': 'lalita bansal',
+    'jp':'jaiprakash bansal',
+    'people_duplicate' : {   'vb':'vidhi bansal',  
+    'tb': 'tiya bansal',
+    'lb': 'lalita bansal',}
+        }
+print(people)
+print(people['people_duplicate'])
