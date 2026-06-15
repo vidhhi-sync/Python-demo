@@ -36,3 +36,9 @@ array_3d = np.array([[[1,2,3],
                       [4,5,6],
                       [9,8,7]]])
 print(array_3d)
+
+#adding two array 
+"""array_1 = np.array([1,2,3,4,5])
+array_2 = np.array({6,7,8,9,10})
+sum_list = array_1+array_2
+print("Sum of the array is : ", sum_list, sep = '\n' )"""
