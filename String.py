@@ -63,5 +63,7 @@ print(len(str1)) #it counts the spaces in between also.
 #Indexing
 str6 = "Vidhi"
 ch = str6[0] #index 0 is the position of first character
-print(ch) #prints the character whose index we are calling
+print(ch) #prints the character whose index we are calling, if there is a space we can print it too
 print(str6[3])
+#slicing
+print(str6[0:3]) #it prints characters on index 0,1,2 , it won't print 3 index character
