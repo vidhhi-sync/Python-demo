@@ -67,3 +67,10 @@ print(ch) #prints the character whose index we are calling, if there is a space 
 print(str6[3])
 #slicing
 print(str6[0:3]) #it prints characters on index 0,1,2 , it won't print 3 index character
+print(str6[0:len(str6)]) #when we want to print the last character in string
+#only : also prints till last character in python
+print(str6[0:])
+print(str6[:]) #prints full character,understood by python
+print(str6[:5]) #similar
+#negative slicing
+print(str6[-1]) #counting index backwardly
