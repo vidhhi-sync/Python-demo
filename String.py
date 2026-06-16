@@ -43,3 +43,20 @@ print(name4.upper()) #capitalize every character
 print(name4.swapcase()) #swap the upper and lower case in the string
 print(name4.title()) #starts the string with a capital letter
 print(name4.istitle()) #checks true or false, works as is
+
+#apna college
+
+str1 = "this is a string"
+str2 = 'this is also a string'
+str3 = """This is also considered as string"""
+print(str1)
+print(str2)
+#adding escape characters to modify text
+str4 = "this is a string.\nIt is used in python"
+str5 = "this is a string.\t It is used in python"
+print(str4)
+print(str5)
+#performing concatenation on string
+print(str1 + " " + str2) #this empty quotation marks adds a space.
+#printing length of a string
+print(len(str1)) #it counts the spaces in between also.
