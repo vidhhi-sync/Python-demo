@@ -60,3 +60,8 @@ print(str5)
 print(str1 + " " + str2) #this empty quotation marks adds a space.
 #printing length of a string
 print(len(str1)) #it counts the spaces in between also.
+#Indexing
+str6 = "Vidhi"
+ch = str6[0] #index 0 is the position of first character
+print(ch) #prints the character whose index we are calling
+print(str6[3])
